@@ -1,0 +1,19 @@
+train: data/data2/data/images/train
+val: data/data2/data/images/val
+test: data/data2/data/images/test
+
+nc: 11
+names:
+  [
+    "Helmet",
+    "Gloves",
+    "Vest",
+    "Boots",
+    "Goggles",
+    "none",
+    "Person",
+    "no_helmet",
+    "no_goggle",
+    "no_gloves",
+    "no_boots",
+  ]
