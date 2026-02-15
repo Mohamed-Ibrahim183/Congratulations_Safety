@@ -130,14 +130,15 @@ if run_button:
                     st.image(
                         Image.open(tmp_path),
                         caption="Original Image",
-                        width="content",
-                        # use_column_width=True,
+                        use_column_width=True,
                     )
                     st.markdown("</div>", unsafe_allow_html=True)
 
                 with col2:
                     st.markdown('<div class="result-card">', unsafe_allow_html=True)
-                    st.image(annotated_img, caption="Annotated Image", width="content")
+                    st.image(
+                        annotated_img, caption="Annotated Image", use_column_width=True
+                    )
                     st.markdown("</div>", unsafe_allow_html=True)
 
                 # Statistics
